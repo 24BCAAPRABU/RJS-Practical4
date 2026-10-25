@@ -1,4 +1,3 @@
-// Complete the function using object destructuring.
 
 let studentDetails =[
 
