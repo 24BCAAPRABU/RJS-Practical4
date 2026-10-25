@@ -1,18 +1,14 @@
+function getStudentDetails(students) {
+    return students.map(({ name, age, grade }) => {
+        return `${name} ${age} ${grade}`;
+    });
+}
 
-let studentDetails =[
-
-{name:"harish", dept: "bca", age"20"},
-{name:"akash", dept: "bca", age"20"}, 
-{name:"prabu", dept:"bca", age"20"},
-
+const students = [
+    { name: "harish", age: 21, grade: "A" },
+    { name: "prabu", age: 20, grade: "B" }
 ];
 
-function getStudentDetails (students) {
+console.log(getStudentDetails(students));
 
-for(const {name,age,dept} of studentDetails}{
-
-}
-
-}
-
-getStudentDetail (StudentDetails);
+module.exports = getStudentDetails;
